@@ -39,7 +39,7 @@ if (isset($_POST['submit']))
 		
 		if ($bind == false)
 			$err = 'Did NOT Bind';
-        //This is where it fails
+        //This is where it fails. Can't figure it out
 
         elseif ($bind)
         {

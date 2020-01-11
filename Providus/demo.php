@@ -115,7 +115,6 @@ if (isset($_POST['submit'])) {
         $array2 = (array) $array1['GetDraftForPrintingResult'];
         $_SESSION['json_string'] = json_encode($array2);
 		
-		//If there's an Error, check here
 		$tempArray[] = json_decode($_SESSION['json_string'],true);
 		$myarray1 = $tempArray[0];
 ?>		
